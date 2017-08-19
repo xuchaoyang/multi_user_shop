@@ -1,0 +1,353 @@
+@media screen and (max-width: 1200px){
+	body,header{
+		width: 1366px;
+	}
+}
+.head{
+	width: 100%;
+	height: 60px;
+	background-color: #373D41;
+}
+.head .logo{
+	width: 60px;
+	height: 60px;
+	float: left;
+	border-right: 1px solid #2A2F32; 
+}
+.head .logo  img{
+	display: block;
+	margin:22px auto;
+	width: 32px;
+	height: 16px;
+}
+.head .management_center{
+	width: 139px;
+	height: 60px;
+	float: left;
+	text-align: center;
+	line-height: 60px;
+	font-size: 16px;
+	color: #FFFFFF;
+}
+.head .nav{
+	height: 60px;
+	float: left;
+}
+.head .nav li{
+	height: 60px;
+	float: left;
+	width: 11.2%;
+	min-width: 60px;
+}
+.head .nav li a{
+	display: block;
+	height: 60px;
+	width:100%;
+	min-width: 60px;
+	line-height: 57px;
+	font-size: 14px;
+	color: #fff;
+	text-align: center;
+	position: relative;
+	transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+} 
+.head .nav li a:before{
+	content: '';
+	width: 0;
+	height: 3px;
+	background-color: #43D060;
+	position: absolute;
+	bottom: 0px;
+	left: 0px;
+	transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+}
+.head .nav .on a{
+	background-color: #2A2F32;
+}
+.head .nav .on a:before{
+	width: 100%;
+}
+.head .nav li a:hover{
+	background-color: #2A2F32;
+}
+.head .nav li a:hover:before{
+	width: 100%;
+}
+.head .user_help{
+	float: right;
+	height: 60px;
+}
+.head .user_help a{
+	display: block;
+	float: left;
+	height: 60px;
+	width: 98px;
+	line-height: 60px;
+	font-size: 12px;
+	color: #fff;
+	border-left: 1px solid #2A2F32;
+	text-align: center;
+}
+.head .user_help .user{
+	width: 60px;
+	height: 60px;
+	float: left;
+	border-left: 1px solid #2A2F32;
+	text-align: center;
+}
+.head .user_help .user img{
+	width: 20px;
+	height: 20px;
+	margin-top: 20px;
+}
+.main{
+	width: 100%;
+	height: 100%;
+}
+.main .main_lf{
+	float: left;
+	width: 200px;
+	height: 100%;
+	background-color: #333744;
+}
+.main .main_lf .title{
+	width: 182px;
+	height: 58px;
+	padding-left: 18px;
+	border-bottom: 1px solid  #EAEFF3;
+	line-height: 58px;
+	font-size: 14px;
+	color: #fff;
+}
+.main .main_lf .lf_nav{
+	width: 100%; 
+	margin-top: 10px; 
+	padding-bottom: 60px;
+}
+.main .main_lf .lf_nav li{
+	width: 183px;
+	padding-left: 17px;
+	height: 40px;
+	transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+	-moz-transition: all 0.3s linear;
+	-o-transition: all 0.3s linear;
+	-webkit-transition: all 0.3s linear;
+}
+.main .main_lf .lf_nav li a{
+	display: block;
+	width: 100%;
+	padding-left: 30px;
+	background-position: left center;
+	background-repeat: no-repeat;
+	line-height:40px; 
+	font-size: 14px;
+	color: #fff;
+}
+.main .main_lf .lf_nav .active{
+	background-color: #43D060;
+}
+.main .main_lf .lf_nav li:hover{
+	background-color: #43D060;
+}
+/*.main_rg{*/
+	/*float: left;*/
+/*}*/
+.main_rg .main_content{
+	background-color: #F7F7F7;
+	padding:40px;
+	/*float: left;*/
+}
+.main_rg .main_content .notice{
+	width: 100%;
+	height: 50px;
+	background-color: #fff;
+	margin-bottom: 15px;
+	border-radius: 3px;
+}
+.main_rg .main_content .notice span{
+	display: block;
+	margin-left: 20px;
+	line-height: 50px;
+	font-size: 12px;
+	color: #666666;
+}
+
+/*应用服务*/
+.main_rg .main_content .service{
+	width: 100%;
+	margin-bottom: 15px;
+}
+.main_rg .main_content .service .service_top {
+	line-height: 25px;
+	font-size: 14px;
+	color: #333;
+	font-weight: 600;
+}
+.main_rg .main_content .service ul{
+	width: 100%;
+	border-radius: 3px;
+	background-color: #fff;
+	overflow: hidden;
+	padding-top: 20px;
+}
+.main_rg .main_content .service ul li{
+	width: 80px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	height: 110px;
+	text-align: center;
+	float: left;
+}
+.main_rg .main_content .service ul li img{
+	width: 80px;
+	height: 80px;
+	border-radius: 8px;
+	margin-bottom: 10px;
+}
+.main_rg .main_content .service ul li  span{
+	line-height: 20px;
+	font-size: 12px;
+	color: #333333;
+}
+
+/*订单*/
+.main_rg .main_content .order{
+	width: 100%;
+	margin-bottom: 15px;
+}
+.main_rg .main_content .order .order_top {
+	line-height: 35px;
+	font-size: 14px;
+	color: #333;
+	font-weight: 600;
+}
+.main_rg .main_content .order table{
+	border:0px ;
+	width: 100%;
+}
+.main_rg .main_content .order table tr th{
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+	color: #737F8D;
+	background-color: #fff;
+	font-weight: 400;
+	text-align: left;
+	border:0px;
+}
+.main_rg .main_content .order table tr td{
+	font-size: 12px;
+	color: #333333;
+	height: 62px;
+	border:0px;
+	border-bottom: 1px solid #E5E5E5;
+}
+.main_rg .main_content .order table tr td span{color: #FF6600;}
+.main_rg .main_content .order table tr td a{
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color:#45A2FF;
+	max-width: 60px;
+}
+
+/*售后服务*/
+.main_rg .main_content .after_service{
+	width: 100%;
+	margin-bottom: 10px;
+}
+.main_rg .main_content .after_service .after_service_top {
+	line-height: 50px;
+	font-size: 14px;
+	color: #333;
+	font-weight: 600;
+}
+.main_rg .main_content .after_service table{
+	border:0px ;
+	width: 100%;
+}
+.main_rg .main_content .after_service table tr th{
+	height: 40px;
+	line-height: 40px;
+	font-size: 12px;
+	color: #737F8D;
+	background-color: #fff;
+	font-weight: 400;
+	text-align: left;
+	border:0px;
+}
+.main_rg .main_content .after_service table tr td{
+	font-size: 12px;
+	color: #333333;
+	height: 62px;
+	border:0px;
+	border-bottom: 1px solid #E5E5E5;
+}
+.main_rg .main_content .after_service table tr td a{
+	display: block;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	color:#45A2FF;
+	max-width: 60px;
+}
+
+
+
+
+
+
+
+.main_rg .main_rightmost{
+	width: 300px;
+	height: 100%;
+	background-color: #fff;
+	float: right;
+	text-align: center;
+}
+.main_rg .main_rightmost img{
+	width: 166px;
+	height: 166px;
+	border-radius: 166px;
+	margin-top:97px;
+	margin-bottom: 10px;
+}
+.main_rg .main_rightmost span{
+	display: block;
+	width: 100%;
+	line-height: 36px;
+	text-align: center;
+	font-size: 12px;
+	color: #999999;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
